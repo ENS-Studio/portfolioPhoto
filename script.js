@@ -44,9 +44,9 @@ const featuredProjects = [
     status: "completed", accent: "sunset",
     media: [
       { type: "video", url: "", title: { fr: "Vidéo promotionnelle Art & Strong", en: "Art & Strong promotional video" }, description: { fr: "Vidéo promotionnelle Art & Strong.", en: "Art & Strong promotional video." }, thumbnail: "assets/images/art-strong/cover.jpg" },
-      { type: "image", url: "assets/images/art-strong/photo-01.png", title: { fr: "Produit Art & Strong 01", en: "Art & Strong product 01" }, description: { fr: "Photographie d'un produit Art & Strong.", en: "Photograph of an Art & Strong product." } },
+      { type: "image", url: "assets/images/art-strong/photo-01.JPG", title: { fr: "Produit Art & Strong 01", en: "Art & Strong product 01" }, description: { fr: "Photographie d'un produit Art & Strong.", en: "Photograph of an Art & Strong product." } },
       { type: "image", url: "assets/images/art-strong/photo-02.JPG", title: { fr: "Produit Art & Strong 02", en: "Art & Strong product 02" }, description: { fr: "Photographie d'un accessoire Art & Strong.", en: "Photograph of an Art & Strong accessory." } },
-      { type: "image", url: "assets/images/art-strong/photo-03.png", title: { fr: "Produit Art & Strong 03", en: "Art & Strong product 03" }, description: { fr: "Photographie d'un accessoire Art & Strong.", en: "Photograph of an Art & Strong accessory." } }
+      { type: "image", url: "assets/images/art-strong/photo-03.JPG", title: { fr: "Produit Art & Strong 03", en: "Art & Strong product 03" }, description: { fr: "Photographie d'un accessoire Art & Strong.", en: "Photograph of an Art & Strong accessory." } }
     ]
   },
   {
@@ -57,6 +57,7 @@ const featuredProjects = [
     techniques: { fr: "À compléter avec les logiciels et techniques utilisés.", en: "Add the software and techniques used." },
     status: "active", accent: "blue",
     media: [
+      { type: "image", url: "assets/images/naffog/cover.jpg", title: { fr: "Photo Naffog", en: "Naffog photo 01" }, description: { fr: "Photo de contenu Naffog 01.", en: "Naffog content photo 01." } },
       { type: "local-video", src: "assets/videos/naffog/video-01.mp4", title: { fr: "Vidéo Naffog 01", en: "Naffog video 01" }, description: { fr: "Vidéo de contenu Naffog 01.", en: "Naffog content video 01." } },
       { type: "local-video", src: "assets/videos/naffog/video-02.mp4", title: { fr: "Vidéo Naffog 02", en: "Naffog video 02" }, description: { fr: "Vidéo de contenu Naffog 02.", en: "Naffog content video 02." } },
     ]
